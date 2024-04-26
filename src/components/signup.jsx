@@ -49,7 +49,7 @@ function SignUp() {
     if (!email.trim()) {
       errors.email = 'Email is required';
     } else if (!/\S+@\S+\.\S+/.test(email)) {
-      errors.email = 'Email is invalid';
+      errors.email = 'Please enter a valid email address';
     }
     if (!phoneNumber.trim()) {
       errors.phoneNumber = 'Phone number is required';
@@ -102,16 +102,16 @@ function SignUp() {
 
             {/* Email input */}
             <div>
-              <label htmlFor="email" className="sr-only text-pink-500">Email</label>
-              <input
-                type="email"
-                value={email}
-                onChange={handleEmailChange}
-                className={`w-full rounded-lg border-gray-200 p-4 text-sm shadow-sm bg-pink-200 ${errors.email ? 'border-red-500' : ''}`}
-                placeholder="Email"
-              />
-              {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-            </div>
+  <label htmlFor="email" className="sr-only text-pink-500">Email</label>
+  <input
+    type="email"
+    value={email}
+    onChange={handleEmailChange}
+    className={`w-full rounded-lg border-gray-200 p-4 text-sm shadow-sm bg-pink-200 ${errors.email ? 'border-red-500' : ''}`}
+    placeholder="Email"
+  />
+  {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+</div>
 
             {/* Phone Number input */}
             <div>

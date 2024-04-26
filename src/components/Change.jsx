@@ -105,7 +105,7 @@ function Change() {
             </button>
 
             <p className="text-center text-sm text-gray-500 mt-4">
-              don't need to change the passoword? <a className="text-red-400" href="#">Sign In</a>
+              don't need to change the passoword? <a className="text-red-400" href="/">Sign In</a>
             </p>
           </form>
         </div>

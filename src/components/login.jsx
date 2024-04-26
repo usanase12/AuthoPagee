@@ -92,7 +92,7 @@ function Login() {
             </p>
             <p className="text-center text-sm text-gray-500">
               change password
-              <Link className="text-red-400">Change</Link>
+              <Link to ="/Change"className="text-red-400">Change</Link>
             </p>
           </form>
         </div>

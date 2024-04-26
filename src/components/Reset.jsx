@@ -59,7 +59,7 @@ function Reset() {
             </button>
 
             <p className="text-center text-sm text-gray-500 mt-4">
-              Remember your password? <a className="text-red-400" href="#">Sign In</a>
+              Remember your password? <a className="text-red-400" href="/">Sign In</a>
             </p>
           </form>
         </div>
